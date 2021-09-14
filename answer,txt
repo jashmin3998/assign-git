@@ -1,0 +1,29 @@
+1) .gitignore is a file that tells git to ignore specific files which extensions are mentioned in .gitignore file.
+For the Java project it should include following data:
+#java
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+
+#Eclipse(Tool)
+.settings/
+bin/
+tmp/
+.metadata
+.classpath
+.project
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.factorypath
+
+2)If linear branch from the current branch present, instead of creating new commit, git points main towards the lattest one of the branch feature. This concept called as fast forwarding in Git.
+
+3)branches build other line or series of development that is different or isolated from the main stable branch which is not affected.
+
+4)As many as I required or want.
